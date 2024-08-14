@@ -33,6 +33,7 @@
 .navbar-brand {
     line-height: 30.16px;
     letter-spacing: -0.02em;
+    font-size: 26px !important;
 }
 
 .navbar-toggler {
