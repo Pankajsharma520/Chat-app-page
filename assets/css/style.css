@@ -139,6 +139,7 @@
     border-radius: 60px;
     color: #1E71FF;
     line-height: 19.92px;
+    cursor: pointer;
 }
 
 .btn-4 {
@@ -147,6 +148,7 @@
     border-radius: 60px;
     color: #1E71FF;
     line-height: 19.92px;
+    cursor: pointer;
 }
 
 .btn-3:hover {
@@ -163,13 +165,6 @@
 
 .ratings-box {
     padding-top: 30px;
-}
-
-.two-boys {
-    position: absolute;
-    left: -81px;
-    width: 50%;
-
 }
 
 .pb-130 {
@@ -239,7 +234,19 @@
         position: unset;
     }
 
-    .main-heading{
+    .main-heading {
         margin-top: 10px;
+    }
+}
+
+@media (min-width:992px) {
+    .two-boys {
+        position: absolute;
+        left: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 50%;
+        height: 100%;
+        max-width: 800px;
     }
 }
